@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_language_dropdowns",
+  "info": {
+    "displayName": "dropdownOptions"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

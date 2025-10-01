@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_mini_banners",
+  "info": {
+    "displayName": "miniBanner"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+    },
+    "LanguageDropdown": {
+      "type": "component",
+      "component": "shared.dropdown-button",
+      "repeatable": false
+    },
+    "AccessibilityButton": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

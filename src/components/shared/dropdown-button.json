@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_dropdown_buttons",
+  "info": {
+    "displayName": "dropdownButton"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "LanguageOptions": {
+      "type": "component",
+      "component": "shared.language-dropdown",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
